@@ -1,0 +1,51 @@
+{% load static %}
+<!doctype html>
+<html lang="en" id="home">
+<head>
+  
+    <title>{{judul}}</title>
+
+    <!-- Font Awesome -->
+	{% include "snippets/fa.html" %}
+	<!-- Bootstrap core CSS -->
+	{% include "snippets/styles.html" %}
+	<link rel="stylesheet" href="{% static "css/styles.css" %}">
+
+</head>
+<body>
+    <header>
+
+        <!--Navbar-->
+        {% include "snippets/navbar.html" %}
+        <!--/.Navbar-->
+
+        <!--Mask-->
+        
+        <div id="intro" class="view">
+        	<!-- hanya untuk search_sayur -->
+        	{% block search %}
+                          
+            {% endblock search %}
+            <!-- hanya untuk search_sayur -->
+
+ 			{% block isi %}
+                          
+            {% endblock isi %}
+
+        </div>
+
+        <!--/.Mask-->
+
+    </header>
+
+    
+    <!-- Footer -->
+    <footer class="page-footer font-small unique-color-dark">
+    	{% include "snippets/footer.html" %}
+        
+    </footer>
+    <!-- Footer -->
+	<!-- JQuery -->
+	{% include "snippets/scripts.html" %}
+</body>
+</html>

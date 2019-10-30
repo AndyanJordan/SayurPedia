@@ -1,0 +1,219 @@
+html,
+body
+#intro {
+    height: 100%;
+}
+.intro1{
+  height: 100%;
+}
+#intro {
+    background: url("icon1.png")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #24355C;
+}
+
+.tab1{
+  background-color: #24355C;
+  min-height: 675px;
+}
+
+#box1{
+        width:100%;
+        min-height:600px;
+        background:white;
+}
+ 
+.wrapper ul{
+  display: inline-flex;
+  align-items: center;
+}
+
+.wrapper ul li{
+  width: 100px;
+  border: 2px solid #fff;
+  
+}
+
+.wrapper ul li:last-child{
+  margin-right: 0;
+}
+
+.wrapper ul li a{
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+}
+
+
+.wrapper ul li a .icon{
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 12px;
+  background: #cf40ff;
+  line-height: 60px;
+  border-radius: 50%;
+  font-size: 25px;
+
+}
+
+
+.wrapper ul li.active a .icon{
+  background: #fff;
+  columns: #2c3e50;
+}
+
+
+  .viewd{
+  	transition: transform .2s;
+  	margin: 0 auto;
+  }
+  .viewd:hover{
+  	transform: scale(1.1);
+  	z-index: 100;
+  }
+
+  .level{
+    transition: transform .2s;
+    margin: 0 auto;
+  }
+  .level:hover{
+    transform: scale(1.5);
+    z-index: 100;
+  }
+
+  .easy hr{
+  width: 130px;
+  border-top: 3px solid #666;
+}
+
+.medium hr{
+  width: 130px;
+  border-top: 3px solid #666;
+}
+
+.hard hr{
+  width: 130px;
+  border-top: 3px solid #666;
+}
+section{
+  min-height: 400px;
+}
+
+.justify{
+  text-align: justify;
+}
+
+.right{
+  text-align: right;
+}
+
+.merah{
+  color: #DC143C;
+}
+.title-1{
+  color: yellow;
+}
+
+.btn-search{
+  margin-left: 1px;
+  border: 1px solid #24355C;
+  border-radius: 0.25rem;
+  height: calc(1.5em + 0.75rem + 2px);
+  line-height: 45px;
+  padding: 0 35px;
+  text-transform: uppercase;
+  color: black;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background-color: #87CEEB;
+
+}
+.btn-search:hover {
+    color: black;
+    background: #3868cd;
+}
+
+.btn-outline-info1 {
+  color: black;
+  border-color: #17a2b8;
+  background: #3868cd;
+}
+
+.btn-outline-info1:hover {
+  color: black;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-outline-info1:focus, .btn-outline-info1.focus {
+  box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5);
+}
+
+.btn-outline-info1.disabled, .btn-outline-info1:disabled {
+  color: black;
+  background-color: transparent;
+}
+
+.btn-outline-info1:not(:disabled):not(.disabled):active, .btn-outline-info1:not(:disabled):not(.disabled).active,
+.show > .btn-outline-info1.dropdown-toggle {
+  color: black;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-outline-info1:not(:disabled):not(.disabled):active:focus, .btn-outline-info:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-info1.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5);
+}
+
+.btn-success1 {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success1:hover {
+  color: #fff;
+  background-color: #218838;
+  border-color: black;
+}
+
+.btn-success1:focus, .btn-success1.focus {
+  box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
+}
+
+.btn-success1.disabled, .btn-success1:disabled {
+  color: #fff;
+  background-color: #28a745;
+  border-color: white;
+}
+
+.btn-success1:not(:disabled):not(.disabled):active, .btn-success1:not(:disabled):not(.disabled).active,
+.show > .btn-success1.dropdown-toggle {
+  color: #fff;
+  background-color: #1e7e34;
+  border-color: white;
+}
+
+.btn-success1:not(:disabled):not(.disabled):active:focus, .btn-success1:not(:disabled):not(.disabled).active:focus,
+.show > .btn-success1.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
+}
+
+.table-striped1 tbody tr:nth-of-type(odd) {
+  background-color: #E8E8E8;
+}
+
+.table-striped1 tbody tr:nth-of-type(even) {
+  background-color: #FFFFFF;
+}

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+
+{% block search %}
+
+<div class="d-flex justify-content-end" style="margin-top: 80px">
+    <table>
+        <tr>
+            <td><input type="text" class="form-control" placeholder="Cari Sayur" aria-label="Recipient's username" aria-describedby="button-addon2"></td>
+            <td><button class="btn btn-outline-info1" type="button" ><i class="fas fa-search"></i></button></td>
+        </tr>
+    </table>
+</div>
+
+{% endblock search %}
+
+{% block isi %}
+	<section class="wrapper container align-items-center justify-content-center" style="padding-top: 20px" >
+        <div class="jumbotron" style="min-height: 600px">
+        	{% for sayur in Sayur %}
+                <h3>{{sayur.nama_sayur}}</h3>
+                <h4>{{sayur.ketinggian_min}}</h4>
+                <h4>{{sayur.ketinggian_max}}</h4>
+                <p>{{sayur.deskripsi}}</p>
+                <img src="{{sayur.image.url}}" width="250px">
+
+            {% endfor %}
+        </div>
+    </section> 
+                          
+{% endblock isi %}
